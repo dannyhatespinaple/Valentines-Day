@@ -35,7 +35,7 @@ export default function Page() {
 
   return (
     <div className="centered-container">
-      <div className="valentine-container" style={{ backgroundColor: 'pink' }}>
+
         {yesPressed ? (
           <>
             <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
