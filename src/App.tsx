@@ -35,15 +35,7 @@ export default function Page() {
 
   return (
     <div className="centered-container">
-      <a
-        href="https://github.com/dikshikaaa/Valentine-s-day-experiment"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        Visit Source Code on GitHub
-      </a>
-      <div className="valentine-container">
+      <div className="valentine-container" style={{ backgroundColor: 'pink' }}>
         {yesPressed ? (
           <>
             <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
@@ -56,7 +48,7 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
-            <h1 className="text-container">Will you be my Valentine?</h1>
+            <h1 className="text-container">Kari will you be my Valentine?</h1>
             <div>
               <button
                 className={"yes-button"}
@@ -74,5 +66,6 @@ export default function Page() {
         )}
       </div>
     </div>
+  );
   );
 }
